@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Coffe Shop</title>
+  </head>
+  <body>
+    <!-- [Begin] Header Section -->
+    <header class="header">
+      <section class="d-flex">
+        <a href="#home" class="logo">
+          <span class="overlay"></span>
+          <!-- logo -->
+          <img src="../images/logo.png" alt="logo" />
+        </a>
+        <!-- navigation menu -->
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="./menu.html">menu</a>
+          <a href="#gallery">gallery</a>
+          <a href="#team">team</a>
+          <a href="#contact">contact</a>
+        </nav>
+
+        <div class="btn-icons">
+          <!-- search start -->
+          <div class="search-bar">
+            <input
+              type="search"
+              placeholder="Enter search term"
+              id="search-box"
+            />
+            <button
+              id="search-btn"
+              class="btn fa-solid fa-magnifying-glass"
+            ></button>
+          </div>
+          <!-- search ends -->
+          <!-- cart start -->
+          <button id="cart-btn" class="btn fa-solid fa-cart-shopping">
+            <span class="badge">01</span>
+          </button>
+          <div class="cart-container">
+            <div class="cart-header">
+              <h3>your order</h3>
+            </div>
+            <div class="cart-body">
+              <!-- item start -->
+              <div class="cart-box">
+                <div class="cart-box-image">
+                  <span class="overlay"></span>
+                  <img src="../images/menu-1.png" alt="" />
+                </div>
+                <div class="cart-box-content">
+                  <h4>Coffee 1</h4>
+                  <p>$99.99</p>
+                </div>
+                <button class="btn fa fa-times"></button>
+              </div>
+              <!-- item ends -->
+            </div>
+            <div class="cart-footer">
+              <a href="./checkout.html" class="btn btn-hover"><span>Check out</span></a>
+            </div>
+          </div>
+          <button id="menu-btn" class="btn fas fa-bars"></button>
+      </section>
+    </header>
+    <!-- [End] Header Section -->
+    <!-- [Begin] Home Section -->
+    <div class="home-bg">
+      <section id="home" class="home">
+        <div class="content">
+          <h3>coffee heaven</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio sunt
+            eum vel quam dolor beatae, nostrum nihil. Reprehenderit, voluptas
+            nihil.
+          </p>
+          <a href="#about" class="btn btn-hover"><span>about us</span></a>
+        </div>
+      </section>
+    </div>
+    <!-- [End] Home Section -->
+    <!-- [Begin] About Section -->
+    <section id="about" class="about">
+      <div class="image">
+        <span class="overlay"></span>
+        <img src="../images/about-img.svg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3>A cup of coffee can comlete your day.</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+          error necessitatibus cumque molestiae magnam, velit ex, voluptatem
+          dolores nulla enim dolorem aspernatur perspiciatis veniam ab, harum
+          quasi accusantium ut exercitationem.
+        </p>
+        <a href="#menu" class="btn btn-hover"><span>our menu</span></a>
+      </div>
+    </section>
+    <!-- [End] About Section -->
+    <!-- [Begin] Facility Section -->
+    <section class="facility">
+      <div class="heading">
+        <span class="overlay"></span>
+        <img src="../images/heading-img.png" alt="" />
+        <h3>our facility</h3>
+      </div>
+
+      <div class="box-container">
+        <!-- item start -->
+        <div class="box">
+          <div class="image">
+            <span class="overlay"></span>
+            <img src="../images/icon-1.png" alt="" />
+          </div>
+          <h3>varieties of coffees</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos
+            aperiam quo sed eligendi ut provident deserunt. Eligendi, fugiat
+            totam!
+          </p>
+        </div>
+        <!-- item ends -->
+        <!-- item start -->
+        <div class="box">
+          <div class="image">
+            <span class="overlay"></span>
+            <img src="../images/icon-2.png" alt="" />
+          </div>
+          <h3>coffee beans</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos
+            aperiam quo sed eligendi ut provident deserunt. Eligendi, fugiat
+            totam!
+          </p>
+        </div>
+        <!-- item ends -->
+        <!-- item start -->
+        <div class="box">
+          <div class="image">
+            <span class="overlay"></span>
+            <img src="../images/icon-3.png" alt="" />
+          </div>
+          <h3>breadkfast and sweets</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos
+            aperiam quo sed eligendi ut provident deserunt. Eligendi, fugiat
+            totam!
+          </p>
+        </div>
+        <!-- item ends -->
+        <!-- item start -->
+        <div class="box">
+          <div class="image">
+            <span class="overlay"></span>
+            <img src="../images/icon-4.png" alt="" />
+          </div>
+          <h3>read to go coffees</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eos
+            aperiam quo sed eligendi ut provident deserunt. Eligendi, fugiat
+            totam!
+          </p>
+        </div>
+        <!-- item ends -->
+      </div>
+    </section>
+    <!-- [End] Facility Section -->
+    <!-- [Begin] Menu Section -->
+    <section id="menu" class="menu">
+      <div class="heading">
+        <span class="overlay"></span>
+        <img src="../images/heading-img.png" alt="" />
+        <h3>popular menu</h3>
+      </div>
+
+      <div class="box-container">
+        <!-- item start -->
+        <div class="box">
+          <div class="box-image">
+            <span class="overlay"></span>
+            <img src="../images/menu-1.png" alt="" />
+          </div>
+          <h3>love you coffee</h3>
+          <p>$83.99</p>
+          <a href="#" class="btn btn-hover"><span>Add to cart</span></a>
+        </div>
+        <!-- item ends -->
+        <!-- item start -->
+        <div class="box">
+          <div class="box-image">
+            <span class="overlay"></span>
+            <img src="../images/menu-2.png" alt="" />
+          </div>
+          <h3>cappuccino</h3>
+          <p>$99.99</p>
+          <a href="#" class="btn btn-hover"><span>Add to cart</span></a>
+        </div>
+        <!-- item ends -->
+        <!-- item start -->
+        <div class="box">
+          <div class="box-image">
+            <span class="overlay"></span>
+            <img src="../images/menu-3.png" alt="" />
+          </div>
+          <h3>mocha coffee</h3>
+          <p>$95.90</p>
+          <a href="#" class="btn btn-hover"><span>Add to cart</span></a>
+        </div>
+        <!-- item ends -->
+        <!-- item start -->
+        <div class="box">
+          <div class="box-image">
+            <span class="overlay"></span>
+            <img src="../images/menu-4.png" alt="" />
+          </div>
+          <h3>black coffee</h3>
+          <p>$83.99</p>
+          <a href="#" class="btn btn-hover"><span>Add to cart</span></a>
+        </div>
+        <!-- item ends -->
+        <!-- item start -->
+        <div class="box">
+          <div class="box-image">
+            <span class="overlay"></span>
+            <img src="../images/menu-5.png" alt="" />
+          </div>
+          <h3>love heart coffee</h3>
+          <p>$80.99</p>
+          <a href="#" class="btn btn-hover"><span>Add to cart</span></a>
+        </div>
+        <!-- item ends -->
+      </div>
+    </section>
+    <!-- [End] Menu Section -->
+    <!-- [Begin] Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="heading">
+        <span class="overlay"></span>
+        <img src="../images/heading-img.png" alt="" />
+        <h3>our gallery</h3>
+      </div>
+
+      <div class="box-container">
+        <img src="../images/gallery-1.webp" alt="" class="gallery-image" />
+        <img src="../images/gallery-2.webp" alt="" class="gallery-image" />
+        <img src="../images/gallery-3.webp" alt="" class="gallery-image" />
+        <img src="../images/gallery-4.webp" alt="" class="gallery-image" />
+        <img src="../images/gallery-5.webp" alt="" class="gallery-image" />
+        <img src="../images/gallery-6.webp" alt="" class="gallery-image" />
+      </div>
+      <div class="modal">
+        <button class="btn fa fa-times"></button>
+        <img src="../images/gallery-2.webp" alt="" />
+      </div>
+    </section>
+    <!-- [End] Gallery Section -->
+    <!-- [Begin] Teams Section -->
+    <section id="team" class="team">
+      <div class="heading">
+        <span class="overlay"></span>
+        <img src="../images/heading-img.png" alt="" />
+        <h3>our team</h3>
+
+        <div class="box-container">
+          <div class="box">
+            <img src="../images/our-team-1.jpg" alt="" />
+            <h3>john deo</h3>
+          </div>
+
+          <div class="box">
+            <img src="../images/our-team-2.jpg" alt="" />
+            <h3>john deo</h3>
+          </div>
+
+          <div class="box">
+            <img src="../images/our-team-3.jpg" alt="" />
+            <h3>john deo</h3>
+          </div>
+
+          <div class="box">
+            <img src="../images/our-team-4.jpg" alt="" />
+            <h3>john deo</h3>
+          </div>
+
+          <div class="box">
+            <img src="../images/our-team-5.jpg" alt="" />
+            <h3>john deo</h3>
+          </div>
+
+          <div class="box">
+            <img src="../images/our-team-6.jpg" alt="" />
+            <h3>john deo</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- [End] Teams Section -->
+    <!-- [Begin] Contact Section -->
+    <section id="contact" class="contact">
+      <div class="heading">
+        <span class="overlay"></span>
+        <img src="../images/heading-img.png" alt="" />
+        <h3>contact us</h3>
+      </div>
+
+      <div class="row">
+        <div class="image">
+          <span class="overlay"></span>
+          <img src="../images/contact-img.svg" alt="" />
+        </div>
+
+        <form action="#" method="post">
+          <h3>Book a table</h3>
+          <div class="box">
+            <input
+              type="text"
+              name="name"
+              id="contact-name"
+              required
+              maxlength="20"
+              placeholder="Name"
+            />
+            <label for="contact-name">Name</label>
+          </div>
+          <div class="box">
+            <input
+              type="email"
+              name="email"
+              id="contact-email"
+              required
+              maxlength="20"
+              placeholder="Email"
+            />
+            <label for="contact-email">Email</label>
+          </div>
+          <div class="box">
+            <input
+              type="number"
+              id="phone"
+              name="phone"
+              required
+              maxlength="10"
+              placeholder="Phone number"
+            />
+            <label for="contact-phone">Phone number</label>
+          </div>
+
+          <div class="box">
+            <input
+              type="number"
+              id="contact-guests"
+              name="guests"
+              required
+              maxlength="10"
+              min="0"
+              max="10"
+              placeholder="how many guests"
+            />
+            <label for="contact-guests">Guests</label>
+          </div>
+          <div class="box">
+            <div class="date">
+              <input
+                type="date"
+                name="contact-date"
+                id="contact-date"
+                required
+              />
+              <label for="contact-date">Date & Time</label>
+            </div>
+            <div class="time">
+              <input
+                type="time"
+                name="contact-date"
+                id="contact-time"
+                required
+              />
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-hover">
+            <span>Booking</span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- [End] Contact Section -->
+    <!-- [Begin] Footer Section -->
+    <footer class="footer">
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>our email</h3>
+          <p>nguyenbao.nix@gmail.com</p>
+          <p>zzphongmazz@gmail.com</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-phone"></i>
+          <h3>our numbeer</h3>
+          <p>0342281231</p>
+          <p>0922588235</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-clock"></i>
+          <h3>opening hours</h3>
+          <p>07:00am to 09:00pm</p>
+        </div>
+
+        <div class="box location">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>shop location</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d723.4921909426771!2d106.67794317305797!3d10.798020642420697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d64e65d753%3A0x781aff12a774928!2sOpenShare%20Caf%C3%A9!5e0!3m2!1svi!2s!4v1650872455933!5m2!1svi!2s"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="credit">
+        &copy; copyright @2022 by <span>mr. Bao Bao</span>| all rights reserved!
+      </div>
+    </footer>
+    <!-- [End] Footer Section -->
+  </body>
+  <script src="../js/main.js"></script>
+</html>

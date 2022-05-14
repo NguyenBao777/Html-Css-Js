@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Menu Coffe Shop</title>
+  <body>
+    <!-- [Begin] Header Section -->
+    <header class="header">
+        <section class="d-flex">
+          <a href="#home" class="logo">
+            <span class="overlay"></span>
+            <!-- logo -->
+            <img src="../images/logo.png" alt="logo" />
+          </a>
+          <!-- navigation menu -->
+          <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="#gallery">gallery</a>
+            <a href="#team">team</a>
+            <a href="#contact">contact</a>
+          </nav>
+  
+          <div class="btn-icons">
+            <!-- search start -->
+            <div class="search-bar">
+              <input
+                type="search"
+                placeholder="Enter search term"
+                id="search-box"
+              />
+              <button
+                id="search-btn"
+                class="btn fa-solid fa-magnifying-glass"
+              ></button>
+            </div>
+            <!-- search ends -->
+            <!-- cart start -->
+            <button id="cart-btn" class="btn fa-solid fa-cart-shopping">
+              <span class="badge">01</span>
+            </button>
+            <div class="cart-container">
+              <div class="cart-header">
+                <h3>your order</h3>
+              </div>
+              <div class="cart-body">
+                <!-- item start -->
+                <div class="cart-box">
+                  <div class="cart-box-image">
+                    <span class="overlay"></span>
+                    <img src="../images/menu-1.png" alt="" />
+                  </div>
+                  <div class="cart-box-content">
+                    <h4>Coffee 1</h4>
+                    <p>$99.99</p>
+                  </div>
+                  <button class="btn fa fa-times"></button>
+                </div>
+                <!-- item ends -->
+              </div>
+              <div class="cart-footer">
+                <a href="./checkout.html" class="btn btn-hover"><span>Check out</span></a>
+              </div>
+            </div>
+            <button id="menu-btn" class="btn fas fa-bars"></button>
+        </section>
+      </header>
+      <!-- [End] Header Section -->
+      <main>
+          <!-- [Begin] Top Slide -->
+          <section id="top-slide" class="top-slide">
+            <button class="btn prev-btn fa-solid fa-angle-left"></button>
+            <button class="btn next-btn fa-solid fa-angle-right"></button>
+            <div class="slide-container">
+                <span class="overlay"></span>
+                <div class="slide-item">
+                    <img src="../images/gallery-1.webp" alt="">
+                </div>
+                <div class="slide-item">
+
+                    <img src="../images/gallery-2.webp" alt="">
+                </div>
+                <div class="slide-item">
+                    <img src="../images/gallery-3.webp" alt="">
+
+                </div>
+                <div class="slide-item">
+                    <img src="../images/gallery-4.webp" alt="">
+
+                </div>
+                <div class="slide-item">
+                    <img src="../images/gallery-5.webp" alt="">
+
+                </div>
+                <div class="slide-item">
+                    <img src="../images/gallery-6.webp" alt="">
+
+                </div>
+            </div>
+          </section>
+          <!-- [End] Top Slide -->
+          <!-- [Begin] Featured Products -->
+            <section class="feature-section">
+                <div class="heading">
+                    <span class="overlay"></span>
+                    <img src="../images/heading-img.png" alt="" />
+                    <h3>our feature products</h3>
+                </div>
+            </section>
+          <!-- [End] Featured Products -->
+      </main>
+  </body>
+  <script src="../js/main.js"></script>
+</html>
